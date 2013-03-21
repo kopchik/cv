@@ -1,0 +1,144 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+% \usepackage[T1]{fontenc}
+% \usepackage[english, french]{babel}
+\moderncvtheme[blue]{classic}  % optional argument are 'blue'
+%(default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+% \usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry} % adjust the page margins
+%\setlength{\hintscolumnwidth}{3cm}
+% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic
+%theme, if you want to change the width of your name placeholder (to leave more
+%space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes
+%are made to page layout lengths
+
+\firstname{Alexandre\\}
+\familyname{Kandalintsev}
+\title{CURRICULUM VIT\AE{}}
+\extrainfo{16/06/1985, Belarusian}
+\address{via Sommarive, 5}{Trento, Italy}
+\mobile{+39 389 532 69 80}
+\email{kandalintsev@disi.unitn.it}
+\photo[55pt]{face}
+% \quote{}
+
+\nopagenumbers{}
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2010 -- now}{PhD candidate}{University of Trento}{Italy}{}{}
+\cventry{2006 -- 2010}{MSc}{University of Russian Academy of Education}{Moscow}{}{}
+%\cventry{2003--2005}{}{Bauman Moscow State Technical University}{Moscow}{}{}
+\cvitem{2003 -- 2005}{\emph{Bauman Moscow State Technical University}, Moscow}
+
+
+\section{Research Interests}
+\cvitem{}{Clouds, resource management, distributed systems, simulation.}
+
+
+\section{Publications}
+\nocite{*}
+\renewcommand*{\bibliographyhead}[1]{}
+\bibliographystyle{plain}
+\bibliography{main}
+
+
+% \section{Publications}
+% \nocitebook{book1,book2}
+% \nocite{*}
+% \bibliographystyle{apacite}
+% \bibliography{main}
+% \bibliographystylebook{plain}
+% \bibliographybook{main}   % 'publications' is the name of a BibTeX file
+% \nocitemisc{misc1,misc2,misc3}
+% \bibliographystylemisc{plain}
+% \bibliographymisc{publications}
+
+
+\section{Work Experience}
+
+% \cventry{Nov 2010 -- Now}{PhD candidate}{University of
+% Trento}{Italy}{}{
+% Efficient cloud resource management. The performance
+% of SMP systems do not grow linearly with the number of cores, but with
+% proper resource allocation scheme it is possible to squeeze more out
+% of the equipment.
+% }
+
+\cventry{Sep 2010 -- Nov 2010}{Internship}{University of Trento}{Italy}{}{
+NAPA-WINE  is a peer-to-peer media streaming platform. It allows users
+to stream media content at a large scale without involving
+addititional backends like dedicated servers or content delivery
+networks.
+\\
+http://www.napa-wine.eu/
+}
+
+\cventry{Nov 2007 -- Jul 2010}{Senior Unix Administrator}{Agava company}{Moscow, Russia}{}{
+\emph{Duties:} solving the most actual and complicated technical
+problems;
+consulting VIP-clients and providing them with personal support;
+managing human resources in our department;
+giving trainings and holding seminars for system administrators on the
+following topics:
+\begin{itemize}
+\item Apache web server course
+\item Understanding Nginx and ``10k clients'' problem
+\item Using tcpdump to watch traffic
+\item DDoS defence methods
+\item Basic database optimizing
+\item Right backup strategies
+\item \dots
+\end{itemize}
+\vspace{3mm}
+I managed a team of four system administrators.
+}
+
+\cventry{Oct 2005 -- Nov 2007}{Unix Administrator}{Agava company}{Moscow, Russia}{}{
+\emph{Duties:} Standard requirements and duties of system
+administrator.
+%\\\\
+%Invaluable experience. The administration of hundreds of servers is worth much.
+}
+
+\cventry{Feb 2005 -- Oct 2005}{Junior Unix Administrator}{Agava Company}{Moscow, Russia}{}{
+\emph{Duties:} Providing the first line full time technical support.
+Assembling, installing and maintaining equipment in datacenters.
+%\\\\
+%Workday as a junior administrator could last up to 16 hour.
+}
+
+\newpage
+\section{Skills}
+\cvitem{OS}{Linux, FreeBSD}{}{}
+\cvitem{Programming languages}{Python(advanced), C, shell scripting, Ocaml and Haskell(in progress), SQL (basics)}{}{}
+\cvitem{Tools}{valgrind, gdb, kvm, perf, oprofile, VCS and other tools}{}{}
+
+
+\section{Languages}
+\cvlanguage{English}{fluent (C1)}{}
+\cvlanguage{Russian}{native}{}
+% \cvlanguage{Italian}{beginner}{}
+
+
+\section{Real-world interests}
+\cvline{}{\small Cycling, fitness, boxing and martial arts}
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
