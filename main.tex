@@ -11,19 +11,18 @@
 %(default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 \usepackage[scale=0.8]{geometry} % adjust the page margins
 
-\firstname{Alexandre\\}
-\familyname{Kandalintsev\vspace{1.7em}}
+\firstname{Alexandre\\}\familyname{Kandalintsev\vspace{1.5em}}
 %\title{CURRICULUM VIT\AE{}}
 %\extrainfo{16/06/1985, Belarusian}
-\address{}{London, UK}
-\mobile{+44 7467 875 305}
+\address{}{Trento, Italy}
+\mobile{+39 389 532 69 80}
 \email{exe.sre@gmail.com}
 \extrainfo{
 \homepagesymbol\httplink{uk.linkedin.com/in/exesre} \\
 \homepagesymbol\httplink{github.com/kopchik} \\
 \vspace{3em}
 }
-\photo[100pt]{face}
+% \photo[100pt]{face}
 
 
 \nopagenumbers{}
@@ -33,7 +32,40 @@
 \begin{document}
 \maketitle
 
+\vspace{-25mm}
 \section{Work Experience}
+\cventry{Nov 2015 -- now}{Backend developer, infrastructure engineer}{\href{codesign.io}{CoDesign.IO (startup company)}}{}{}{
+Backend developer, infrastructure architector. Backend is on Python using Django+REST, data stored in MySQL and Amazon S3. Resources are provided by Heroku, Amazon and other IaaS/PaaS providers. My duties and contribution:
+\begin{itemize}
+\item \textbf{Backend:} database query/layout optimization, caching, code sanitizing (pyflakes, autopep8), tests and continuous integration
+\item \textbf{Infrastructure:} migration to private cloud (to cut the costs), automated backups, monitoring, store configuration in git
+\item \textbf{General duties}: architecture design, documentation, code review, supervision of interns.
+\end{itemize}
+%
+% \begin{itemize}
+% \item Backend
+%   \begin{itemize}
+%   \item Database query/layout optimization
+%   \item Caching
+%   \item Code sanitizing (pyflakes, autopep8)
+%   \item Tests and continuous integration
+%   \end{itemize}
+% \item Infrastructure
+%   \begin{itemize}
+%   \item Migration from heroku and other services to ``private cloud'' (to cut the costs)
+%   \item Automated backups
+%   \item Monitoring
+%   \end{itemize}
+% \item General duties:
+%   \begin{itemize}
+%   \item Interns supervision
+%   \item Architecture design
+%   \item Documentation
+%   \item Code review
+%   \end{itemize}
+% \end{itemize}
+%
+}
 
 \cventry{Jul 2014 -- Jan 2015}{Site Reliability Engineer}{\href{http://goo.gl/Nx9qXo}{Google}}{London, UK}{}{
 Support of AdWords/Double-click backends. Some highlights:
@@ -65,22 +97,22 @@ Support of AdWords/Double-click backends. Some highlights:
 \end{itemize}
 }
 
-\cventry{May 2013 -- October 2014}{Internship}{University of Luxembourg}{Luxembourg}{\texttt{http://uni.lu/snt}}{
-% Supervisor: Dzmitry Kliazovich (\texttt{http://disi.unitn.it/~klezovic/})
-\begin{itemize}
-\item {Studied and proposed solutions to reduce the performance interference between VMs}
-\item {The obtained results were submitted as a conference paper}
-\end{itemize}
-}
+% \cventry{May 2013 -- October 2014}{Internship}{University of Luxembourg}{Luxembourg}{\texttt{http://uni.lu/snt}}{
+% % Supervisor: Dzmitry Kliazovich (\texttt{http://disi.unitn.it/~klezovic/})
+% \begin{itemize}
+% \item {Studied and proposed solutions to reduce the performance interference between VMs}
+% \item {The obtained results were submitted as a conference paper}
+% \end{itemize}
+% }
 
-\cventry{Sep 2010 -- Nov 2010}{Internship}{University of Trento}{Italy}{\texttt{http://www.napa-wine.eu/}}{
-% Supervisor: Renato Lo Cigno (\texttt{http://disi.unitn.it/locigno/})
-NAPA-WINE  is a peer-to-peer media streaming platform. My contribution is:
-\begin{itemize}
-\item{Support for multi-channel media streams}
-\item{New GUI frontend}
-\end{itemize}
-}
+% \cventry{Sep 2010 -- Nov 2010}{Internship}{University of Trento}{Italy}{\texttt{http://www.napa-wine.eu/}}{
+% % Supervisor: Renato Lo Cigno (\texttt{http://disi.unitn.it/locigno/})
+% NAPA-WINE  is a peer-to-peer media streaming platform. My contribution is:
+% \begin{itemize}
+% \item{Support for multi-channel media streams}
+% \item{New GUI frontend}
+% \end{itemize}
+% }
 
 \cventry{Nov 2007 -- Jul 2010}{Senior Unix Administrator}{Agava Company}{Moscow, Russia}{}{
 \begin{itemize}
@@ -101,20 +133,18 @@ NAPA-WINE  is a peer-to-peer media streaming platform. My contribution is:
 }
 
 \cventry{Oct 2005 -- Nov 2007}{Unix Administrator}{Agava company}{Moscow, Russia}{}{
-\emph{Duties:} Standard requirements and duties of system
-administrator.
+Standard requirements and duties of a system administrator.
 }
 
 \cventry{Feb 2005 -- Oct 2005}{Junior Unix Administrator}{Agava Company}{Moscow, Russia}{}{
-\emph{Duties:} Providing the first line full time technical support.
-Assembling, installing and maintaining equipment in data centers.
+Provided the first line full-time technical support.
+Assembled, installed and maintained equipment in data centers.
 }
 
 
 \section{Education}
-\cventry{2010 -- now}{PhD candidate}{Telecommunications}{University of Trento}{Trento, Italy}{}{}
+\cventry{2010 -- 2016}{PhD (defense March 2016)}{Telecommunications}{University of Trento}{Italy}{Thesis: ``Fighting Application Interference''}{}
 \cventry{2006 -- 2010}{MSc}{Computer Science}{University of Russian Academy of Education}{Moscow, Russia}{}{}
-%\cventry{2003--2005}{}{Bauman Moscow State Technical University}{Moscow}{}{}
 \cventry{2003 -- 2005}{BSs (3 semesters)}{Computer Systems and Networks}{Bauman Moscow State Technical University}{Moscow, Russia}{}{}
 
 
@@ -153,9 +183,8 @@ Assembling, installing and maintaining equipment in data centers.
 
 % \section{Research Interests}
 % \cvitem{}{Clouds, resource management, distributed systems.}
-
 \section{Hobbies}
-\cvline{}{\small DIY electronics (microcontrollers, robot platforms and interaction with the real world)}
+\cvline{}{\small DIY electronics (microcontrollers, robot platforms and interaction with the real world).}
 
 
 \end{document}

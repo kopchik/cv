@@ -42,4 +42,4 @@ clean: clean-tmp
 	rm -f *.bbl *.ps *.dvi ${extoutfile}.pdf
 
 view: main.pdf
-	xdg-open main.pdf
+	evince main.pdf &
