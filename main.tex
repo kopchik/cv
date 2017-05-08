@@ -14,8 +14,9 @@
 \firstname{Alexandre\\}\familyname{Kandalintsev\vspace{1.5em}}
 %\title{CURRICULUM VIT\AE{}}
 %\extrainfo{16/06/1985, Belarusian}
-\address{}{Trento, Italy}
-\mobile{+39 389 532 69 80}
+\address{}{Amsterdam, Netherlands}
+% \mobile{+39 389 532 69 80}
+% \mobile{+31 6 446 26656}
 \email{exe.sre@gmail.com}
 \extrainfo{
 \homepagesymbol\httplink{uk.linkedin.com/in/exesre} \\
@@ -35,7 +36,39 @@
 \vspace{-30mm}
 \section{Work Experience}
 
-\cventry{June 2016 -- now}{One Man Army}{AdminCup (no site yet)}{}{}{
+\cventry{Nov 2016 -- Now}{Python Developer}{customergauge.com}{}{}{
+I work on our backend system that sends SMS and e-mails. My general duties:
+\begin{itemize}
+\item Keep the system healthy
+\item Influence system's design
+\item Promote best practices, set a good example for other teams
+\item Cultivate agile principles
+\item Share knowledge
+\item Perform code reviews
+\end{itemize}
+Selected contributions:
+\begin{itemize}
+\item Local test environment similar to production environment (vagrant+virtualbox+docker)
+\item Dockerized our Python services (deployed on dev, to be pushed on prod)
+\item Graceful shutdown for our services
+\item Unit tests, integration tests
+\item Identified and eliminated bottlenecks found with profiler
+\item Removed dead code
+\item Security audit
+\end{itemize}
+{}
+{}
+% Current and future activities:
+% \begin{itemize}
+% \item Major code refactoring to conform modern coding standards (ongoing)
+% \item Reducing log pressure (ongoing)
+% \item Migration to Amazon Virtual Private Cloud (VPC)
+% % \item Amazon resources consolidation to cut the costs
+% \item Performance monitoring and health-checks
+% \end{itemize}
+}
+
+\cventry{June 2016 -- Nov 2016}{One Man Army}{AdminCup}{}{}{
 I always dreamed about having a nice pet project and here the dream come true :).
 It's an e-learning system for system administrators.
 The first demo is yet on its way, but I can summarize the technologies I'm using:
@@ -45,10 +78,12 @@ The first demo is yet on its way, but I can summarize the technologies I'm using
 \item aiohttp (Python) + nginx for backend
 \item Ansible for deployment / automation
 \item QEMU / LXD for isolation and containers
+\item react.js + material-ui
 \end{itemize}
+Since I found a new job and had some concerns about the future of the project I decided to terminate it.
 }
 
-\cventry{Nov 2015 -- now}{Infrastructure Architect, Backend Developer (Python)}{\href{codesign.io}{CoDesign.IO}}{}{}{
+\cventry{Nov 2015 -- Nov 2016}{Infrastructure Architect, Backend Developer (Python)}{\href{codesign.io}{CoDesign.IO}}{}{}{
 I have two roles in this project: software developer and infrastructure architect.
 As a developer, I work on our Django backend (Python).
 As an infrastructure guy I do ... well, pretty much everything required to run our production platform :).
@@ -125,9 +160,9 @@ Support of AdWords/Double-click backends. Some highlights:
 \vspace{3mm}
 }
 
-\cventry{Oct 2005 -- Nov 2007}{Unix Administrator}{Agava company}{Moscow, Russia}{}{
-Standard requirements and duties of a system administrator.
-}
+% \cventry{Oct 2005 -- Nov 2007}{Unix Administrator}{Agava company}{Moscow, Russia}{}{
+% Standard requirements and duties of a system administrator.
+% }
 
 % \cventry{Feb 2005 -- Oct 2005}{Junior Unix Administrator}{Agava Company}{Moscow, Russia}{}{
 % Provided the first line full-time technical support.
@@ -147,14 +182,13 @@ Standard requirements and duties of a system administrator.
   \url{https://github.com/kopchik/patches/blob/master/qemu_ifname.patch}}
 \cvitem{}{\textbf{Virtual Machine Commander}: a tool to orchestrate multiple virtual machines at once:
 \url{github.com/kopchik/vmc}}
-\cvitem{}{\textbf{Parallel Downloader:} downloads chunks in order so video files can be viewed before they completely downloaded: \url{github.com/kopchik/pdl}}
-\cvitem{}{\textbf{IPv4/IPv6 proxy:} enables IPv6 for legacy applications: \url{github.com/kopchik/proxy64}}
-
-\section{Publications}
-\nocite{*}
-\renewcommand*{\bibliographyhead}[1]{}
-\bibliographystyle{abbrv}
-\bibliography{main}
+% \cvitem{}{\textbf{Parallel Downloader:} downloads chunks in order so video files can be viewed before they completely downloaded: \url{github.com/kopchik/pdl}}
+% \cvitem{}{\textbf{IPv4/IPv6 proxy:} enables IPv6 for legacy applications: \url{github.com/kopchik/proxy64}}
+% \section{Publications}
+% \nocite{*}
+% \renewcommand*{\bibliographyhead}[1]{}
+% \bibliographystyle{abbrv}
+% \bibliography{main}
 
 
 %\newpage
@@ -167,17 +201,14 @@ Standard requirements and duties of a system administrator.
 \item[Basic skills:] SQL, Java, JavaScript/LiveScript, C, C++
 \end{description}}{}{}
 \vspace{-1em}
-\cvitem{Tools}{Valgrind, GDB, Qemu/KVM, Docker/LXC/LXD, perf, SaltStack, OpenVpn, VCS and other tools}{}{}
+\cvitem{Tools}{Valgrind, GDB, Qemu/KVM, Docker/LXC/LXD, perf, Ansible/SaltStack, OpenVpn, VCS and other tools}{}{}
 
 \section{Languages}
 \cvlanguage{English}{fluent (C1)}{}
 % \cvlanguage{Italian}{elementary (A2)}{}
 \cvlanguage{Russian}{native}{}
-
 % \section{Research Interests}
 % \cvitem{}{Clouds, resource management, distributed systems.}
 \section{Hobbies}
 \cvline{}{\small DIY electronics (STM32 microcontrollers, robot platforms, linear power supplies, interaction with the real world).}
-
-
 \end{document}

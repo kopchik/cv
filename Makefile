@@ -22,7 +22,7 @@ ext: ${extoutfile}.pdf
 
 ${extmainfile}.dvi: ${sources}
 	latex ${extmainfile}.tex
-	bibtex ${extmainfile}
+#	bibtex ${extmainfile}
 	latex ${extmainfile}.tex
 	latex ${extmainfile}.tex
 
